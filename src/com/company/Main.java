@@ -3,7 +3,7 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
         // Задание 2
-        byte a = 1;
+        byte l = 1;
         short b = 2;
         int c = 3;
         long e = 4L;
@@ -42,7 +42,7 @@ public class Main {
 
     public static boolean sumNumbers(int a, int b) {
         int c = a + b;
-        if (c >= 10 && c <= 20){
+        if (c >= 10 && c <= 20) {
             return true;
         } else {
             return false;
